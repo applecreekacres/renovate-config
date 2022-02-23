@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 1,
+  "addLabels": ["dependencies"],
+  "minor": {
+    "addLabels": ["automerge"]
+  },
+  "patch": {
+    "addLabels": ["automerge"]
+  },
+  "rust":{
+    "addLabels": ["rust"]
+  },
+  "github-actions": {
+    "addLabels": ["github_actions"]
+  },
+  "python":{
+    "addLabels": ["python"]
+  }
+}
