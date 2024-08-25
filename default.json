@@ -2,6 +2,7 @@
   "extends": [
     "config:base"
   ],
+  "prHourlyLimit": 0,
   "automerge": true,
   "addLabels": ["dependencies"],
   "minor": {
